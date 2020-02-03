@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6D3830FD231EB76B0069D066 /* GAHRiskEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D3830F9231EB76B0069D066 /* GAHRiskEngine.framework */; };
-		6D3830FF231EB7780069D066 /* ZDetection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D3830FB231EB76B0069D066 /* ZDetection.framework */; };
-		6D383100231EB7780069D066 /* ZDetection.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6D3830FB231EB76B0069D066 /* ZDetection.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		6D383106231EB9510069D066 /* GAH.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6D383105231EB9510069D066 /* GAH.plist */; };
+		2017B8E323E412EE00EA66AC /* GAHRiskEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2017B8DD23E412EE00EA66AC /* GAHRiskEngine.framework */; };
+		2017B8E423E412EE00EA66AC /* GAHRiskEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2017B8DF23E412EE00EA66AC /* GAHRiskEngine.framework */; };
+		2017B8E623E412F800EA66AC /* ZDetection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2017B8E123E412EE00EA66AC /* ZDetection.framework */; };
+		2017B8E723E412F800EA66AC /* ZDetection.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2017B8E123E412EE00EA66AC /* ZDetection.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2017B8E823E412F900EA66AC /* TrustDefender.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2017B8DA23E412EE00EA66AC /* TrustDefender.framework */; };
+		2017B8E923E412F900EA66AC /* TrustDefender.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2017B8DA23E412EE00EA66AC /* TrustDefender.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2017B8F123E4164200EA66AC /* Strip_Unused_Architectures.sh in Resources */ = {isa = PBXBuildFile; fileRef = 2017B8F023E4164200EA66AC /* Strip_Unused_Architectures.sh */; };
 		6D38310F231FAF990069D066 /* UILabel+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D38310E231FAF990069D066 /* UILabel+Animation.swift */; };
 		6D8C9318231E7E5200D32416 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C9317231E7E5200D32416 /* AppDelegate.swift */; };
 		6D8C931A231E7E5200D32416 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C9319231E7E5200D32416 /* ViewController.swift */; };
@@ -26,7 +29,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				6D383100231EB7780069D066 /* ZDetection.framework in Embed Frameworks */,
+				2017B8E923E412F900EA66AC /* TrustDefender.framework in Embed Frameworks */,
+				2017B8E723E412F800EA66AC /* ZDetection.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -34,11 +38,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6D3830F7231EB76B0069D066 /* GAHRiskEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GAHRiskEngine.framework; sourceTree = "<group>"; };
-		6D3830F9231EB76B0069D066 /* GAHRiskEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GAHRiskEngine.framework; sourceTree = "<group>"; };
-		6D3830FB231EB76B0069D066 /* ZDetection.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZDetection.framework; sourceTree = "<group>"; };
+		2017B8DA23E412EE00EA66AC /* TrustDefender.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TrustDefender.framework; sourceTree = "<group>"; };
+		2017B8DD23E412EE00EA66AC /* GAHRiskEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GAHRiskEngine.framework; sourceTree = "<group>"; };
+		2017B8DF23E412EE00EA66AC /* GAHRiskEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GAHRiskEngine.framework; sourceTree = "<group>"; };
+		2017B8E123E412EE00EA66AC /* ZDetection.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZDetection.framework; sourceTree = "<group>"; };
+		2017B8EA23E412FF00EA66AC /* 01-ProjectSetupReference.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "01-ProjectSetupReference.entitlements"; sourceTree = "<group>"; };
+		2017B8F023E4164200EA66AC /* Strip_Unused_Architectures.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = Strip_Unused_Architectures.sh; sourceTree = "<group>"; };
 		6D383104231EB8490069D066 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
-		6D383105231EB9510069D066 /* GAH.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = GAH.plist; path = Debug/GAHRiskEngine.framework/Versions/A/Resources/GAH.plist; sourceTree = "<group>"; };
 		6D38310E231FAF990069D066 /* UILabel+Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Animation.swift"; sourceTree = "<group>"; };
 		6D8C9314231E7E5200D32416 /* 01-ProjectSetupReference.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01-ProjectSetupReference.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D8C9317231E7E5200D32416 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -54,54 +60,64 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D3830FD231EB76B0069D066 /* GAHRiskEngine.framework in Frameworks */,
-				6D3830FF231EB7780069D066 /* ZDetection.framework in Frameworks */,
+				2017B8E323E412EE00EA66AC /* GAHRiskEngine.framework in Frameworks */,
+				2017B8E623E412F800EA66AC /* ZDetection.framework in Frameworks */,
+				2017B8E823E412F900EA66AC /* TrustDefender.framework in Frameworks */,
+				2017B8E423E412EE00EA66AC /* GAHRiskEngine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6D3830F4231EB76B0069D066 /* Frameworks */ = {
+		2017B8D823E412EE00EA66AC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6D3830F5231EB76B0069D066 /* GAHRiskEngine */,
-				6D3830FA231EB76B0069D066 /* ZDetection */,
+				2017B8D923E412EE00EA66AC /* TrustDefender */,
+				2017B8DB23E412EE00EA66AC /* GAHRiskEngine */,
+				2017B8E023E412EE00EA66AC /* ZDetection */,
 			);
 			name = Frameworks;
 			path = ../../Frameworks;
 			sourceTree = "<group>";
 		};
-		6D3830F5231EB76B0069D066 /* GAHRiskEngine */ = {
+		2017B8D923E412EE00EA66AC /* TrustDefender */ = {
 			isa = PBXGroup;
 			children = (
-				6D383105231EB9510069D066 /* GAH.plist */,
-				6D3830F6231EB76B0069D066 /* Release */,
-				6D3830F8231EB76B0069D066 /* Debug */,
+				2017B8DA23E412EE00EA66AC /* TrustDefender.framework */,
+			);
+			path = TrustDefender;
+			sourceTree = "<group>";
+		};
+		2017B8DB23E412EE00EA66AC /* GAHRiskEngine */ = {
+			isa = PBXGroup;
+			children = (
+				2017B8DC23E412EE00EA66AC /* Release */,
+				2017B8DE23E412EE00EA66AC /* Debug */,
 			);
 			path = GAHRiskEngine;
 			sourceTree = "<group>";
 		};
-		6D3830F6231EB76B0069D066 /* Release */ = {
+		2017B8DC23E412EE00EA66AC /* Release */ = {
 			isa = PBXGroup;
 			children = (
-				6D3830F7231EB76B0069D066 /* GAHRiskEngine.framework */,
+				2017B8DD23E412EE00EA66AC /* GAHRiskEngine.framework */,
 			);
 			path = Release;
 			sourceTree = "<group>";
 		};
-		6D3830F8231EB76B0069D066 /* Debug */ = {
+		2017B8DE23E412EE00EA66AC /* Debug */ = {
 			isa = PBXGroup;
 			children = (
-				6D3830F9231EB76B0069D066 /* GAHRiskEngine.framework */,
+				2017B8DF23E412EE00EA66AC /* GAHRiskEngine.framework */,
 			);
 			path = Debug;
 			sourceTree = "<group>";
 		};
-		6D3830FA231EB76B0069D066 /* ZDetection */ = {
+		2017B8E023E412EE00EA66AC /* ZDetection */ = {
 			isa = PBXGroup;
 			children = (
-				6D3830FB231EB76B0069D066 /* ZDetection.framework */,
+				2017B8E123E412EE00EA66AC /* ZDetection.framework */,
 			);
 			path = ZDetection;
 			sourceTree = "<group>";
@@ -124,7 +140,8 @@
 			isa = PBXGroup;
 			children = (
 				6D8C9316231E7E5200D32416 /* 01-ProjectSetupReference */,
-				6D3830F4231EB76B0069D066 /* Frameworks */,
+				2017B8F023E4164200EA66AC /* Strip_Unused_Architectures.sh */,
+				2017B8D823E412EE00EA66AC /* Frameworks */,
 				6D8C9315231E7E5200D32416 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -140,6 +157,7 @@
 		6D8C9316231E7E5200D32416 /* 01-ProjectSetupReference */ = {
 			isa = PBXGroup;
 			children = (
+				2017B8EA23E412FF00EA66AC /* 01-ProjectSetupReference.entitlements */,
 				6D38310D231FAF320069D066 /* Support Files */,
 				6D8C9319231E7E5200D32416 /* ViewController.swift */,
 			);
@@ -157,6 +175,7 @@
 				6D8C9311231E7E5200D32416 /* Frameworks */,
 				6D8C9312231E7E5200D32416 /* Resources */,
 				6D3830D9231EA7EE0069D066 /* Embed Frameworks */,
+				2017B8EB23E414D000EA66AC /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -206,14 +225,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2017B8F123E4164200EA66AC /* Strip_Unused_Architectures.sh in Resources */,
 				6D8C9322231E7E5400D32416 /* LaunchScreen.storyboard in Resources */,
 				6D8C931F231E7E5400D32416 /* Assets.xcassets in Resources */,
 				6D8C931D231E7E5200D32416 /* Main.storyboard in Resources */,
-				6D383106231EB9510069D066 /* GAH.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2017B8EB23E414D000EA66AC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/bin/sh Strip_Unused_Architectures.sh\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6D8C9310231E7E5200D32416 /* Sources */ = {
@@ -369,11 +408,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "01-ProjectSetupReference/01-ProjectSetupReference.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8F83X2SF75;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
 					"\"$(SRCROOT)/../../Frameworks/GAHRiskEngine/Debug\"",
+					"\"$(SRCROOT)/../../Frameworks/TrustDefender\"",
 					"\"$(SRCROOT)/../../Frameworks/ZDetection\"",
 				);
 				INFOPLIST_FILE = "01-ProjectSetupReference/Support Files/Info.plist";
@@ -385,6 +427,7 @@
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
+					"-all_load",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.thales.fpp.gettingstarted;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -401,11 +444,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "01-ProjectSetupReference/01-ProjectSetupReference.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8F83X2SF75;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
 					"\"$(SRCROOT)/../../Frameworks/GAHRiskEngine/Release\"",
+					"\"$(SRCROOT)/../../Frameworks/TrustDefender\"",
 					"\"$(SRCROOT)/../../Frameworks/ZDetection\"",
 				);
 				INFOPLIST_FILE = "01-ProjectSetupReference/Support Files/Info.plist";
@@ -417,6 +463,7 @@
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
+					"-all_load",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.thales.fpp.gettingstarted;
 				PRODUCT_NAME = "$(TARGET_NAME)";
