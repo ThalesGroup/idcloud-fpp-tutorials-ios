@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		2017B8E323E412EE00EA66AC /* GAHRiskEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2017B8DD23E412EE00EA66AC /* GAHRiskEngine.framework */; };
 		2017B8E423E412EE00EA66AC /* GAHRiskEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2017B8DF23E412EE00EA66AC /* GAHRiskEngine.framework */; };
-		2017B8E623E412F800EA66AC /* ZDetection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2017B8E123E412EE00EA66AC /* ZDetection.framework */; };
-		2017B8E723E412F800EA66AC /* ZDetection.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2017B8E123E412EE00EA66AC /* ZDetection.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2017B8E823E412F900EA66AC /* TrustDefender.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2017B8DA23E412EE00EA66AC /* TrustDefender.framework */; };
 		2017B8E923E412F900EA66AC /* TrustDefender.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2017B8DA23E412EE00EA66AC /* TrustDefender.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2017B8F123E4164200EA66AC /* Strip_Unused_Architectures.sh in Resources */ = {isa = PBXBuildFile; fileRef = 2017B8F023E4164200EA66AC /* Strip_Unused_Architectures.sh */; };
@@ -30,7 +28,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				2017B8E923E412F900EA66AC /* TrustDefender.framework in Embed Frameworks */,
-				2017B8E723E412F800EA66AC /* ZDetection.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -41,7 +38,6 @@
 		2017B8DA23E412EE00EA66AC /* TrustDefender.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TrustDefender.framework; sourceTree = "<group>"; };
 		2017B8DD23E412EE00EA66AC /* GAHRiskEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GAHRiskEngine.framework; sourceTree = "<group>"; };
 		2017B8DF23E412EE00EA66AC /* GAHRiskEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GAHRiskEngine.framework; sourceTree = "<group>"; };
-		2017B8E123E412EE00EA66AC /* ZDetection.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZDetection.framework; sourceTree = "<group>"; };
 		2017B8EA23E412FF00EA66AC /* 01-ProjectSetupReference.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "01-ProjectSetupReference.entitlements"; sourceTree = "<group>"; };
 		2017B8F023E4164200EA66AC /* Strip_Unused_Architectures.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = Strip_Unused_Architectures.sh; sourceTree = "<group>"; };
 		6D383104231EB8490069D066 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
@@ -61,7 +57,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2017B8E323E412EE00EA66AC /* GAHRiskEngine.framework in Frameworks */,
-				2017B8E623E412F800EA66AC /* ZDetection.framework in Frameworks */,
 				2017B8E823E412F900EA66AC /* TrustDefender.framework in Frameworks */,
 				2017B8E423E412EE00EA66AC /* GAHRiskEngine.framework in Frameworks */,
 			);
@@ -75,7 +70,6 @@
 			children = (
 				2017B8D923E412EE00EA66AC /* TrustDefender */,
 				2017B8DB23E412EE00EA66AC /* GAHRiskEngine */,
-				2017B8E023E412EE00EA66AC /* ZDetection */,
 			);
 			name = Frameworks;
 			path = ../../Frameworks;
@@ -112,14 +106,6 @@
 				2017B8DF23E412EE00EA66AC /* GAHRiskEngine.framework */,
 			);
 			path = Debug;
-			sourceTree = "<group>";
-		};
-		2017B8E023E412EE00EA66AC /* ZDetection */ = {
-			isa = PBXGroup;
-			children = (
-				2017B8E123E412EE00EA66AC /* ZDetection.framework */,
-			);
-			path = ZDetection;
 			sourceTree = "<group>";
 		};
 		6D38310D231FAF320069D066 /* Support Files */ = {
@@ -416,7 +402,6 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/../../Frameworks/GAHRiskEngine/Debug\"",
 					"\"$(SRCROOT)/../../Frameworks/TrustDefender\"",
-					"\"$(SRCROOT)/../../Frameworks/ZDetection\"",
 				);
 				INFOPLIST_FILE = "01-ProjectSetupReference/Support Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -452,7 +437,6 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/../../Frameworks/GAHRiskEngine/Release\"",
 					"\"$(SRCROOT)/../../Frameworks/TrustDefender\"",
-					"\"$(SRCROOT)/../../Frameworks/ZDetection\"",
 				);
 				INFOPLIST_FILE = "01-ProjectSetupReference/Support Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
