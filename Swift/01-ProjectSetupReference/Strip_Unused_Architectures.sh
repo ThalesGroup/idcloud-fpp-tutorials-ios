@@ -8,7 +8,7 @@ fi
 APP_PATH="${TARGET_BUILD_DIR}/${WRAPPER_NAME}"
 echo "App Path:"$APP_PATH
 
-DYNAMIC_FRAMEWORKS='ZDetection.framework TrustDefender.framework'
+DYNAMIC_FRAMEWORKS='TrustDefender.framework'
 
 # This script loops through the DYNAMIC_FRAMEWORKS embedded in the application and
 # removes unused architectures.
