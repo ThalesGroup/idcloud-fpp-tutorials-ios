@@ -134,7 +134,6 @@
 				6D8C9311231E7E5200D32416 /* Frameworks */,
 				6D8C9312231E7E5200D32416 /* Resources */,
 				6D3830D9231EA7EE0069D066 /* Embed Frameworks */,
-				2017B8EB23E414D000EA66AC /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -191,26 +190,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		2017B8EB23E414D000EA66AC /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/bin/sh Strip_Unused_Architectures.sh\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6D8C9310231E7E5200D32416 /* Sources */ = {
