@@ -87,7 +87,6 @@ class ViewController: UIViewController {
     }
     
     private func processVisitIDResponse(_ success: Bool, _ value: String?) {
-        // ClearTransactionResources needs to be triggered from ui thread if BehavioSec is used.
         // In this Lab we want to simple display some visual result, so UI thread is also handy.
         DispatchQueue.main.sync {
             // Display result on screen.
@@ -98,9 +97,6 @@ class ViewController: UIViewController {
                 // ...
                 // ...
             }
-            
-            // Clear transaction resources
-            <#Code Placeholder - Clear Transaction Resources#>
         }
     }
     
@@ -120,7 +116,7 @@ class ViewController: UIViewController {
 // MARK: - CLLocationManagerDelegate
 
 extension ViewController: CLLocationManagerDelegate {
-    func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
+    func locationManagerDidChangeAuthorization(_ manager: CLLocationManager) {
         // Handle permission status change.
         // This method must be implemented (can be empty) in order to get system permission dialog.
     }

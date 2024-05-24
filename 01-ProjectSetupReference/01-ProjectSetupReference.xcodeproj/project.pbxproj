@@ -3,21 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2017B8E323E412EE00EA66AC /* GAHRiskEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2017B8DD23E412EE00EA66AC /* GAHRiskEngine.framework */; };
-		2017B8E423E412EE00EA66AC /* GAHRiskEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2017B8DF23E412EE00EA66AC /* GAHRiskEngine.framework */; };
-		2017B8E823E412F900EA66AC /* TrustDefender.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2017B8DA23E412EE00EA66AC /* TrustDefender.framework */; };
-		2017B8E923E412F900EA66AC /* TrustDefender.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2017B8DA23E412EE00EA66AC /* TrustDefender.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		2017B8F123E4164200EA66AC /* Strip_Unused_Architectures.sh in Resources */ = {isa = PBXBuildFile; fileRef = 2017B8F023E4164200EA66AC /* Strip_Unused_Architectures.sh */; };
 		6D38310F231FAF990069D066 /* UILabel+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D38310E231FAF990069D066 /* UILabel+Animation.swift */; };
 		6D8C9318231E7E5200D32416 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C9317231E7E5200D32416 /* AppDelegate.swift */; };
 		6D8C931A231E7E5200D32416 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C9319231E7E5200D32416 /* ViewController.swift */; };
 		6D8C931D231E7E5200D32416 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C931B231E7E5200D32416 /* Main.storyboard */; };
 		6D8C931F231E7E5400D32416 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C931E231E7E5400D32416 /* Assets.xcassets */; };
 		6D8C9322231E7E5400D32416 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C9320231E7E5400D32416 /* LaunchScreen.storyboard */; };
+		A1B4E7212C00F078008DFE1B /* TMXProfilingConnections.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B4E71E2C00F078008DFE1B /* TMXProfilingConnections.xcframework */; };
+		A1B4E7222C00F078008DFE1B /* TMXProfilingConnections.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A1B4E71E2C00F078008DFE1B /* TMXProfilingConnections.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A1B4E7232C00F078008DFE1B /* TMXBehavioSec.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B4E71F2C00F078008DFE1B /* TMXBehavioSec.xcframework */; };
+		A1B4E7242C00F078008DFE1B /* TMXBehavioSec.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A1B4E71F2C00F078008DFE1B /* TMXBehavioSec.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A1B4E7252C00F078008DFE1B /* TMXProfiling.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B4E7202C00F078008DFE1B /* TMXProfiling.xcframework */; };
+		A1B4E7262C00F078008DFE1B /* TMXProfiling.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A1B4E7202C00F078008DFE1B /* TMXProfiling.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A1B4E7282C00F115008DFE1B /* GAHRiskEngine.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B4E7272C00F115008DFE1B /* GAHRiskEngine.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,7 +29,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				2017B8E923E412F900EA66AC /* TrustDefender.framework in Embed Frameworks */,
+				A1B4E7242C00F078008DFE1B /* TMXBehavioSec.xcframework in Embed Frameworks */,
+				A1B4E7222C00F078008DFE1B /* TMXProfilingConnections.xcframework in Embed Frameworks */,
+				A1B4E7262C00F078008DFE1B /* TMXProfiling.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -35,11 +39,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2017B8DA23E412EE00EA66AC /* TrustDefender.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TrustDefender.framework; sourceTree = "<group>"; };
-		2017B8DD23E412EE00EA66AC /* GAHRiskEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GAHRiskEngine.framework; sourceTree = "<group>"; };
-		2017B8DF23E412EE00EA66AC /* GAHRiskEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GAHRiskEngine.framework; sourceTree = "<group>"; };
 		2017B8EA23E412FF00EA66AC /* 01-ProjectSetupReference.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "01-ProjectSetupReference.entitlements"; sourceTree = "<group>"; };
-		2017B8F023E4164200EA66AC /* Strip_Unused_Architectures.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = Strip_Unused_Architectures.sh; sourceTree = "<group>"; };
 		6D383104231EB8490069D066 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		6D38310E231FAF990069D066 /* UILabel+Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Animation.swift"; sourceTree = "<group>"; };
 		6D8C9314231E7E5200D32416 /* 01-ProjectSetupReference.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01-ProjectSetupReference.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +49,10 @@
 		6D8C931E231E7E5400D32416 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D8C9321231E7E5400D32416 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D8C9323231E7E5400D32416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1B4E71E2C00F078008DFE1B /* TMXProfilingConnections.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:8VDTV2QZMS:ThreatMetrix Inc."; lastKnownFileType = wrapper.xcframework; name = TMXProfilingConnections.xcframework; path = dependencies/TMXProfilingConnections.xcframework; sourceTree = SOURCE_ROOT; };
+		A1B4E71F2C00F078008DFE1B /* TMXBehavioSec.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:8VDTV2QZMS:ThreatMetrix Inc."; lastKnownFileType = wrapper.xcframework; name = TMXBehavioSec.xcframework; path = dependencies/TMXBehavioSec.xcframework; sourceTree = SOURCE_ROOT; };
+		A1B4E7202C00F078008DFE1B /* TMXProfiling.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:8VDTV2QZMS:ThreatMetrix Inc."; lastKnownFileType = wrapper.xcframework; name = TMXProfiling.xcframework; path = dependencies/TMXProfiling.xcframework; sourceTree = SOURCE_ROOT; };
+		A1B4E7272C00F115008DFE1B /* GAHRiskEngine.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:2T9J7M62ML:Thales DIS France SAS"; lastKnownFileType = wrapper.xcframework; name = GAHRiskEngine.xcframework; path = dependencies/$CONFIGURATION/GAHRiskEngine.xcframework; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2017B8E323E412EE00EA66AC /* GAHRiskEngine.framework in Frameworks */,
-				2017B8E823E412F900EA66AC /* TrustDefender.framework in Frameworks */,
-				2017B8E423E412EE00EA66AC /* GAHRiskEngine.framework in Frameworks */,
+				A1B4E7212C00F078008DFE1B /* TMXProfilingConnections.xcframework in Frameworks */,
+				A1B4E7252C00F078008DFE1B /* TMXProfiling.xcframework in Frameworks */,
+				A1B4E7232C00F078008DFE1B /* TMXBehavioSec.xcframework in Frameworks */,
+				A1B4E7282C00F115008DFE1B /* GAHRiskEngine.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,44 +73,13 @@
 		2017B8D823E412EE00EA66AC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2017B8D923E412EE00EA66AC /* TrustDefender */,
-				2017B8DB23E412EE00EA66AC /* GAHRiskEngine */,
+				A1B4E7272C00F115008DFE1B /* GAHRiskEngine.xcframework */,
+				A1B4E71F2C00F078008DFE1B /* TMXBehavioSec.xcframework */,
+				A1B4E7202C00F078008DFE1B /* TMXProfiling.xcframework */,
+				A1B4E71E2C00F078008DFE1B /* TMXProfilingConnections.xcframework */,
 			);
 			name = Frameworks;
 			path = ../../Frameworks;
-			sourceTree = "<group>";
-		};
-		2017B8D923E412EE00EA66AC /* TrustDefender */ = {
-			isa = PBXGroup;
-			children = (
-				2017B8DA23E412EE00EA66AC /* TrustDefender.framework */,
-			);
-			path = TrustDefender;
-			sourceTree = "<group>";
-		};
-		2017B8DB23E412EE00EA66AC /* GAHRiskEngine */ = {
-			isa = PBXGroup;
-			children = (
-				2017B8DC23E412EE00EA66AC /* Release */,
-				2017B8DE23E412EE00EA66AC /* Debug */,
-			);
-			path = GAHRiskEngine;
-			sourceTree = "<group>";
-		};
-		2017B8DC23E412EE00EA66AC /* Release */ = {
-			isa = PBXGroup;
-			children = (
-				2017B8DD23E412EE00EA66AC /* GAHRiskEngine.framework */,
-			);
-			path = Release;
-			sourceTree = "<group>";
-		};
-		2017B8DE23E412EE00EA66AC /* Debug */ = {
-			isa = PBXGroup;
-			children = (
-				2017B8DF23E412EE00EA66AC /* GAHRiskEngine.framework */,
-			);
-			path = Debug;
 			sourceTree = "<group>";
 		};
 		6D38310D231FAF320069D066 /* Support Files */ = {
@@ -126,7 +100,6 @@
 			isa = PBXGroup;
 			children = (
 				6D8C9316231E7E5200D32416 /* 01-ProjectSetupReference */,
-				2017B8F023E4164200EA66AC /* Strip_Unused_Architectures.sh */,
 				2017B8D823E412EE00EA66AC /* Frameworks */,
 				6D8C9315231E7E5200D32416 /* Products */,
 			);
@@ -211,7 +184,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2017B8F123E4164200EA66AC /* Strip_Unused_Architectures.sh in Resources */,
 				6D8C9322231E7E5400D32416 /* LaunchScreen.storyboard in Resources */,
 				6D8C931F231E7E5400D32416 /* Assets.xcassets in Resources */,
 				6D8C931D231E7E5200D32416 /* Main.storyboard in Resources */,
@@ -404,7 +376,7 @@
 					"\"$(SRCROOT)/../../Frameworks/TrustDefender\"",
 				);
 				INFOPLIST_FILE = "01-ProjectSetupReference/Support Files/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -439,7 +411,7 @@
 					"\"$(SRCROOT)/../../Frameworks/TrustDefender\"",
 				);
 				INFOPLIST_FILE = "01-ProjectSetupReference/Support Files/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
