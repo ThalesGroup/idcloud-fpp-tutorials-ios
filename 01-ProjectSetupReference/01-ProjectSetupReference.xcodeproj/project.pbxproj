@@ -13,13 +13,14 @@
 		6D8C931D231E7E5200D32416 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C931B231E7E5200D32416 /* Main.storyboard */; };
 		6D8C931F231E7E5400D32416 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C931E231E7E5400D32416 /* Assets.xcassets */; };
 		6D8C9322231E7E5400D32416 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C9320231E7E5400D32416 /* LaunchScreen.storyboard */; };
+		A134F3D02C06B97C00496B5E /* GAHRiskEngine.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B4E7272C00F115008DFE1B /* GAHRiskEngine.xcframework */; };
+		A134F3D12C06B97C00496B5E /* GAHRiskEngine.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A1B4E7272C00F115008DFE1B /* GAHRiskEngine.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A1B4E7212C00F078008DFE1B /* TMXProfilingConnections.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B4E71E2C00F078008DFE1B /* TMXProfilingConnections.xcframework */; };
 		A1B4E7222C00F078008DFE1B /* TMXProfilingConnections.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A1B4E71E2C00F078008DFE1B /* TMXProfilingConnections.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A1B4E7232C00F078008DFE1B /* TMXBehavioSec.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B4E71F2C00F078008DFE1B /* TMXBehavioSec.xcframework */; };
 		A1B4E7242C00F078008DFE1B /* TMXBehavioSec.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A1B4E71F2C00F078008DFE1B /* TMXBehavioSec.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A1B4E7252C00F078008DFE1B /* TMXProfiling.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B4E7202C00F078008DFE1B /* TMXProfiling.xcframework */; };
 		A1B4E7262C00F078008DFE1B /* TMXProfiling.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A1B4E7202C00F078008DFE1B /* TMXProfiling.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A1B4E7282C00F115008DFE1B /* GAHRiskEngine.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B4E7272C00F115008DFE1B /* GAHRiskEngine.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +33,7 @@
 				A1B4E7242C00F078008DFE1B /* TMXBehavioSec.xcframework in Embed Frameworks */,
 				A1B4E7222C00F078008DFE1B /* TMXProfilingConnections.xcframework in Embed Frameworks */,
 				A1B4E7262C00F078008DFE1B /* TMXProfiling.xcframework in Embed Frameworks */,
+				A134F3D12C06B97C00496B5E /* GAHRiskEngine.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -49,10 +51,10 @@
 		6D8C931E231E7E5400D32416 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D8C9321231E7E5400D32416 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D8C9323231E7E5400D32416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A1B4E71E2C00F078008DFE1B /* TMXProfilingConnections.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:8VDTV2QZMS:ThreatMetrix Inc."; lastKnownFileType = wrapper.xcframework; name = TMXProfilingConnections.xcframework; path = dependencies/TMXProfilingConnections.xcframework; sourceTree = SOURCE_ROOT; };
-		A1B4E71F2C00F078008DFE1B /* TMXBehavioSec.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:8VDTV2QZMS:ThreatMetrix Inc."; lastKnownFileType = wrapper.xcframework; name = TMXBehavioSec.xcframework; path = dependencies/TMXBehavioSec.xcframework; sourceTree = SOURCE_ROOT; };
-		A1B4E7202C00F078008DFE1B /* TMXProfiling.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:8VDTV2QZMS:ThreatMetrix Inc."; lastKnownFileType = wrapper.xcframework; name = TMXProfiling.xcframework; path = dependencies/TMXProfiling.xcframework; sourceTree = SOURCE_ROOT; };
-		A1B4E7272C00F115008DFE1B /* GAHRiskEngine.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:2T9J7M62ML:Thales DIS France SAS"; lastKnownFileType = wrapper.xcframework; name = GAHRiskEngine.xcframework; path = dependencies/$CONFIGURATION/GAHRiskEngine.xcframework; sourceTree = SOURCE_ROOT; };
+		A1B4E71E2C00F078008DFE1B /* TMXProfilingConnections.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:8VDTV2QZMS:ThreatMetrix Inc."; lastKnownFileType = wrapper.xcframework; name = TMXProfilingConnections.xcframework; path = ../Frameworks/TMX/TMXProfilingConnections.xcframework; sourceTree = SOURCE_ROOT; };
+		A1B4E71F2C00F078008DFE1B /* TMXBehavioSec.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:8VDTV2QZMS:ThreatMetrix Inc."; lastKnownFileType = wrapper.xcframework; name = TMXBehavioSec.xcframework; path = ../Frameworks/TMX/TMXBehavioSec.xcframework; sourceTree = SOURCE_ROOT; };
+		A1B4E7202C00F078008DFE1B /* TMXProfiling.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:8VDTV2QZMS:ThreatMetrix Inc."; lastKnownFileType = wrapper.xcframework; name = TMXProfiling.xcframework; path = ../Frameworks/TMX/TMXProfiling.xcframework; sourceTree = SOURCE_ROOT; };
+		A1B4E7272C00F115008DFE1B /* GAHRiskEngine.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:2T9J7M62ML:Thales DIS France SAS"; lastKnownFileType = wrapper.xcframework; name = GAHRiskEngine.xcframework; path = ../Frameworks/GAHRiskEngine/$CONFIGURATION/GAHRiskEngine.xcframework; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +65,7 @@
 				A1B4E7212C00F078008DFE1B /* TMXProfilingConnections.xcframework in Frameworks */,
 				A1B4E7252C00F078008DFE1B /* TMXProfiling.xcframework in Frameworks */,
 				A1B4E7232C00F078008DFE1B /* TMXBehavioSec.xcframework in Frameworks */,
-				A1B4E7282C00F115008DFE1B /* GAHRiskEngine.xcframework in Frameworks */,
+				A134F3D02C06B97C00496B5E /* GAHRiskEngine.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +277,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -330,7 +332,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -351,8 +353,10 @@
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../Frameworks/GAHRiskEngine/Debug\"",
-					"\"$(SRCROOT)/../../Frameworks/TrustDefender\"",
+					"\"$(SRCROOT)/../../Frameworks/GAHRiskEngine/$(CONFIGURATION)/GAHRiskEngine.xcframework\"",
+					"\"$(SRCROOT)/../../Frameworks/TMX/TMXBehavioSec.xcframework\"",
+					"\"$(SRCROOT)/../../Frameworks/TMX/TMXProfiling.xcframework\"",
+					"\"$(SRCROOT)/../../Frameworks/TMX/TMXProfilingConnections.xcframework\"",
 				);
 				INFOPLIST_FILE = "01-ProjectSetupReference/Support Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -386,8 +390,10 @@
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../Frameworks/GAHRiskEngine/Release\"",
-					"\"$(SRCROOT)/../../Frameworks/TrustDefender\"",
+					"\"$(SRCROOT)/../../Frameworks/GAHRiskEngine/$(CONFIGURATION)/GAHRiskEngine.xcframework\"",
+					"\"$(SRCROOT)/../../Frameworks/TMX/TMXBehavioSec.xcframework\"",
+					"\"$(SRCROOT)/../../Frameworks/TMX/TMXProfiling.xcframework\"",
+					"\"$(SRCROOT)/../../Frameworks/TMX/TMXProfilingConnections.xcframework\"",
 				);
 				INFOPLIST_FILE = "01-ProjectSetupReference/Support Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
