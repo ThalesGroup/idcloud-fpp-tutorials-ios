@@ -390,8 +390,10 @@
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../Frameworks/GAHRiskEngine/Release\"",
-					"\"$(SRCROOT)/../../Frameworks/TrustDefender\"",
+					"\"$(SRCROOT)/../../Frameworks/GAHRiskEngine/$(CONFIGURATION)/GAHRiskEngine.xcframework\"",
+					"\"$(SRCROOT)/../../Frameworks/TMX/TMXBehavioSec.xcframework\"",
+					"\"$(SRCROOT)/../../Frameworks/TMX/TMXProfiling.xcframework\"",
+					"\"$(SRCROOT)/../../Frameworks/TMX/TMXProfilingConnections.xcframework\"",
 				);
 				INFOPLIST_FILE = "01-ProjectSetupReference/Support Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
